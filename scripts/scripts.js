@@ -1,4 +1,4 @@
-const font_list = [
+const font_list= [
         'Arial', 
         'Courier New', 
         'Georgia', 
