@@ -1,4 +1,4 @@
-/*const font_list= [
+const font_list= [
         'Arial', 
         'Courier New', 
         'Georgia', 
@@ -18,8 +18,31 @@
         'Helvetica',
         'Optima',
         'Didot',
-        'Rockwell'
-    ];*/
+        'Rockwell',
+        'Gill Sans',
+        'Franklin Gothic Medium',
+        'Century Gothic',
+        'Baskerville',
+        'Copperplate',
+        'Brush Script MT',
+        'Consolas',
+        'Monaco',
+        'Lucida Sans Unicode',
+        'Segoe UI',
+        'Avant Garde',
+        'Avenir',
+        'Cochin',
+        'Perpetua',
+        'Trajan Pro',
+        'Zapfino',
+        'Harrington',
+        'Vivaldi',
+        'Papyrus',
+        'Stencil',
+        'Broadway',
+        'Algerian',
+        'Chiller'
+    ]
 
 const phrase1 = document.getElementById('phrase1');
 const phrase2 = document.getElementById('phrase2');
@@ -42,16 +65,13 @@ async function caricaDati() {
 
 
 function Randomfont(){
-    if (arrayDati.length === 0) {
-        console.error("L'array dei dati è vuoto. Assicurati che i dati siano stati caricati correttamente.");
-        return;
-    }
-    const randomFont1 = arrayDati[Math.floor(Math.random() * arrayDati.length)];
-    const randomFont2 = arrayDati[Math.floor(Math.random() * arrayDati.length)];
-    const randomFont3 = arrayDati[Math.floor(Math.random() * arrayDati.length)];
-    phrase1.style.fontFamily = randomFont1;
-    phrase2.style.fontFamily = randomFont2;
-    phrase3.style.fontFamily = randomFont3;
+    const mixedFonts = [...font_list].sort(() => 0.5 - Math.random());
+    const font1 = mixedFonts[0];
+    const font2 = mixedFonts[1];
+    const font3 = mixedFonts[2];
+    phrase1.style.fontFamily = font1;
+    phrase2.style.fontFamily = font2;
+    phrase3.style.fontFamily = font3;
 }
 
 button.addEventListener('click', Randomfont);
