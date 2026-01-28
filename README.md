@@ -90,4 +90,4 @@ Apri una Pull Request.
 📄 Licenza
 Distribuito sotto la licenza MIT. Vedi LICENSE per maggiori informazioni.
 
-<p align="center"> Fatto con ❤️ e un sacco di ☕ da [Il Tuo Nome] </p>
+<p align="center"> Fatto con ❤️ e un sacco di ☕ </p>
