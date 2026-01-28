@@ -41,7 +41,19 @@ const font_list= [
         'Stencil',
         'Broadway',
         'Algerian',
-        'Chiller'
+        'Chiller',
+        'Curlz MT',
+        'Jokerman',
+        'Mistral',
+        'Old English Text MT',
+        'Rage Italic',
+        'Showcard Gothic',
+        'Viner Hand ITC',
+        'Wingdings',
+        'Wingdings 2',
+        'Wingdings 3',
+        'Webdings',
+        'Lucida Handwriting'
     ]
 
 const phrase1 = document.getElementById('phrase1');
