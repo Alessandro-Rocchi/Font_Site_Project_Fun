@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Roboto",
+        "style": "Sans-serif",
+        "weight": "Regular",
+        "file": "roboto-regular.ttf"
+    },
+    {
+        "name": "Open Sans",
+        "style": "Sans-serif",
+        "weight": "Bold",
+        "file": "open-sans-bold.ttf"
+    },
+    {
+        "name": "Lora",
+        "style": "Serif",
+        "weight": "Regular",
+        "file": "lora-regular.ttf"
+    },
+    {
+        "name": "Montserrat",
+        "style": "Sans-serif",
+        "weight": "Medium",
+        "file": "montserrat-medium.ttf"
+    }
+]
