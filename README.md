@@ -26,8 +26,6 @@ Il Risultato: Vedi come hanno votato gli altri utenti (opzionale) o passa al pro
 
 🎨 Anteprima in Tempo Reale: Il nome del font viene renderizzato utilizzando il font stesso.
 
-💾 Local Storage: Tiene traccia del tuo punteggio o delle tue scelte "Kill" più frequenti.
-
 🛠️ Tecnologie Utilizzate
 Il progetto è costruito interamente in Vanilla JS, senza dipendenze esterne pesanti.
 
