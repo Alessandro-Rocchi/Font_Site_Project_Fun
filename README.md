@@ -1,4 +1,5 @@
-🖋️ Font: Fuck, Marry, Kill
+# 🖋️ Font: Fuck, Marry, Kill
+
 Salva l'Helvetica, sposa il Futura, elimina il Comic Sans.
 
 Font FMK è un gioco web interattivo che rivisita il classico passatempo "Fuck, Marry, Kill" in chiave tipografica. Metti alla prova i tuoi gusti da designer: ti vengono presentati tre font casuali e devi decidere il destino di ognuno.
@@ -48,22 +49,6 @@ font-fmk/
 ├── assets/           # Icone e immagini
 │   └── fonts.json    # (Opzionale) Database locale dei font
 └── README.md         # Documentazione
-🚀 Come iniziare
-Non è richiesta alcuna installazione complessa (niente Node.js o npm per la versione base).
-
-Clona la repository:
-
-Bash
-git clone https://github.com/tuo-username/font-fmk.git
-Entra nella cartella:
-
-Bash
-cd font-fmk
-Avvia il gioco:
-
-Apri semplicemente il file index.html nel tuo browser preferito.
-
-Opzionale: Se usi VS Code, puoi usare l'estensione "Live Server" per un'esperienza di sviluppo migliore.
 
 🔮 Idee Future (Roadmap)
 [ ] Modalità "Hardcore": Riconoscere il font solo da una lettera.
@@ -74,20 +59,5 @@ Opzionale: Se usi VS Code, puoi usare l'estensione "Live Server" per un'esperien
 
 [ ] Dark Mode: Per i designer notturni.
 
-🤝 Contribuire
-I contributi sono benvenuti! Se hai un'idea per migliorare il codice o vuoi aggiungere una lista di font oscuri:
-
-Forka il progetto.
-
-Crea il tuo branch (git checkout -b feature/NuovaFeature).
-
-Committa le tue modifiche (git commit -m 'Aggiunta NuovaFeature').
-
-Pusha sul branch (git push origin feature/NuovaFeature).
-
-Apri una Pull Request.
-
 📄 Licenza
 Distribuito sotto la licenza MIT. Vedi LICENSE per maggiori informazioni.
-
-<p align="center"> Fatto con ❤️ e un sacco di ☕ </p>
